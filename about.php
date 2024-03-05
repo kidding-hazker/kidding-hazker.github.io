@@ -2,7 +2,7 @@
 <?php header('Content-Type: text/html; charset=utf-8'); ?>
 <html>
     <head>
-        <title>kidding-hazker / projects</title>
+        <title>kidding-hazker / about</title>
         <link rel="stylesheet" href="css/lib.css">
     </head>
     <body>
