@@ -14,5 +14,10 @@
                 <a href="https://youtube.com/@kidding-hazker" id="youtube">youtube</a>
             </div>
         </header>
+        <main>
+            <form action="">
+                <input type="text" placeholder="search" name="search">
+            </form>
+        </main>
     </body>
 </html>
