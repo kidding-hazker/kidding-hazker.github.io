@@ -1,3 +1,15 @@
+:root {
+    --black: #000;
+    --red: #f00;
+    --green: #0f0;
+    --blue: #00f;
+    --yellow: #ff0;
+    --magenta: #f0f;
+    --cyan: #0ff;
+    --white: #fff;
+    --none: #0000;
+    --select: #fff7;
+}
 html, body, * {
     margin: 0;
     padding: 0;
@@ -7,38 +19,34 @@ html, body, * {
     font-weight: 300;
     font-style: normal;
 
-    background-color: #000;
-    color: #fff;
+    background-color: var(--black);
+    color: var(--white);
 
     text-decoration: none;
     filter: none;
     animation: none;
-    transition: .2s;
 }
 html::selection, body::selection, *::selection {
-    background-color: #fff;
-    color: #000;
+    background-color: var(--select);
 }
 
-.black { color: #000; }
-.red { color: #f00; }
-.green { color: #0f0; }
-.blue { color: #00f; }
-.yellow { color: #ff0; }
-.magenta { color: #f0f; }
-.cyan { color: #0ff; }
-.white { color: #fff; }
-
-.on-black { background-color: #000; }
-.on-red { background-color: #f00; }
-.on-green { background-color: #0f0; }
-.on-blue { background-color: #00f; }
-.on-yellow { background-color: #ff0; }
-.on-magenta { background-color: #f0f; }
-.on-cyan { background-color: #0ff; }
-.on-white { background-color: #fff; }
-
-.sgr0 { font-weight: 300; }
+.black { color: var(--black); }
+.red { color: var(--red); }
+.green { color: var(--green); }
+.blue { color: var(--blue); }
+.yellow { color: var(--yellow); }
+.magenta { color: var(--magenta); }
+.cyan { color: var(--cyan); }
+.white { color: var(--white); }
+.on-black { background-color: var(--black); }
+.on-red { background-color: var(--red); }
+.on-green { background-color: var(--green); }
+.on-blue { background-color: var(--blue); }
+.on-yellow { background-color: var(--yellow); }
+.on-magenta { background-color: var(--magenta); }
+.on-cyan { background-color: var(--cyan); }
+.on-white { background-color: var(--white); }
+.sgr0 { font-weight: 300; font-style: normal; text-decoration: none; filter: none; animation: none;}
 .bold { font-weight: 700; }
 .dim { font-weight: 100; }
 .sitm { font-style: italic; }
@@ -46,12 +54,11 @@ html::selection, body::selection, *::selection {
 .blink { animation: blink .8s step-start infinite; }
 .rev { filter: invert(100%); }
 .smxx { text-decoration: line-through; }
-
 @keyframes blink {
     50% {
-        color: #000;
+        color: var(--none);
         ::selection {
-            color: #000;
+            color: var(--none);
         }
     }
 }
@@ -62,4 +69,22 @@ header {
     align-items: center;
     height: 2ch;
     padding: 1ch;
+    outline: 1px solid var(--white);
+    >a {
+        color: var(--cyan);
+    }
+    >div {
+        display: flex;
+        align-items: center;
+        margin-right: -1ch;
+        >a { margin: 0 1ch; }
+        >#github { color: var(--blue); }
+        >#youtube { color: var(--red); }
+    }
+}
+a {
+    color: var(--green);
+}
+a:hover {
+    text-decoration: underline;
 }
