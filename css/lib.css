@@ -67,21 +67,21 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 2ch;
+    height: 3ch;
     padding: 1ch;
     outline: 1px solid var(--white);
-    >a {
-        color: var(--cyan);
-    }
+    >a { color: var(--cyan); }
     >div {
         display: flex;
         align-items: center;
         margin-right: -1ch;
         >a { margin: 0 1ch; }
-        >#github { color: var(--blue); }
-        >#youtube { color: var(--red); }
     }
 }
+#blog { color: var(--yellow); }
+#projects { color: var(--green); }
+#github { color: var(--blue); }
+#youtube { color: var(--red); }
 a {
     color: var(--green);
 }

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>kidding-hazker</title>
+        <title>kidding-hazker / projects</title>
         <link rel="stylesheet" href="css/lib.css">
     </head>
     <body>
