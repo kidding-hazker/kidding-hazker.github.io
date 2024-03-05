@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta header="Content-Type: text/html">
         <title>kidding-hazker / blog</title>
         <link rel="stylesheet" href="css/lib.css">
     </head>
