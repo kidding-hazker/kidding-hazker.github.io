@@ -80,6 +80,7 @@ header {
         >#projects { color: var(--green); }
         >#github { color: var(--blue); }
         >#youtube { color: var(--red); }
+        >#about { color: var(--magenta); }
     }
 }
 a {

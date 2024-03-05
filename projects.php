@@ -12,11 +12,12 @@
                 <a href="projects" id="projects">projects</a>
                 <a href="https://github.com/kidding-hazker" id="github">github</a>
                 <a href="https://youtube.com/@kidding-hazker" id="youtube">youtube</a>
+                <a href="about" id="about">about</a>
             </div>
         </header>
         <main>
             <form action="">
-                <input type="text" placeholder="search" name="search">
+                <input type="text" placeholder="search" name="search_query">
             </form>
         </main>
     </body>
