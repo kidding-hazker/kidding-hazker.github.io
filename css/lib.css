@@ -76,12 +76,12 @@ header {
         align-items: center;
         margin-right: -1ch;
         >a { margin: 0 1ch; }
+        >#blog { color: var(--yellow); }
+        >#projects { color: var(--green); }
+        >#github { color: var(--blue); }
+        >#youtube { color: var(--red); }
     }
 }
-#blog { color: var(--yellow); }
-#projects { color: var(--green); }
-#github { color: var(--blue); }
-#youtube { color: var(--red); }
 a {
     color: var(--green);
 }
