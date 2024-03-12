@@ -1,5 +1,5 @@
 <svg width="512" height="512" stroke="#fff" stroke-width="8" fill="#0000">
-    <rect x="0" y="0" width="512" height="512" />
+    <rect x="0" y="0" width="512" height="512" stroke="#0000" fill="#000"/>
     <!-- CPU CONFIG -->
     <path d="M 160 192 s 0 -32 32 -32 M 320 160 s 32 0 32 32 M 352 320 s 0 32 -32 32 M 192 352 s -32 0 -32 -32"/>
     <path d="M 224 224 l -32 32 l 32 32" stroke="#f00"/>
