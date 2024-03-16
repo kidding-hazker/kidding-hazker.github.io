@@ -38,6 +38,7 @@ html::selection, body::selection, *::selection {
 .magenta { color: var(--magenta); }
 .cyan { color: var(--cyan); }
 .white { color: var(--white); }
+
 .on-black { background-color: var(--black); }
 .on-red { background-color: var(--red); }
 .on-green { background-color: var(--green); }
@@ -46,6 +47,7 @@ html::selection, body::selection, *::selection {
 .on-magenta { background-color: var(--magenta); }
 .on-cyan { background-color: var(--cyan); }
 .on-white { background-color: var(--white); }
+
 .sgr0 { font-weight: 300; font-style: normal; text-decoration: none; filter: none; animation: none;}
 .bold { font-weight: 700; }
 .dim { font-weight: 100; }
@@ -54,6 +56,7 @@ html::selection, body::selection, *::selection {
 .blink { animation: blink .8s step-start infinite; }
 .rev { filter: invert(100%); }
 .smxx { text-decoration: line-through; }
+
 @keyframes blink {
     50% {
         color: var(--none);
@@ -81,6 +84,7 @@ header {
         >#github { color: var(--blue); }
         >#youtube { color: var(--red); }
         >#about { color: var(--magenta); }
+        >#live { color: var(--magenta); }
     }
 }
 a {
@@ -88,4 +92,8 @@ a {
 }
 a:hover {
     text-decoration: underline;
+}
+main {
+    padding: 1ch;
+    display: flex;
 }
