@@ -84,7 +84,7 @@ header {
         >#github { color: var(--blue); }
         >#youtube { color: var(--red); }
         >#about { color: var(--magenta); }
-        >#live { color: var(--magenta); }
+        >#live { color: var(--cyan); }
     }
 }
 a {
